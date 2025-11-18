@@ -1,13 +1,9 @@
 {
   "name": "swaglabs_pw_cucumber",
   "version": "1.0.0",
-  "description": "Pratice PlayWright with Cucumber at Swag Labs site",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "cucumber": "cucumber-js --config config/cucumber.js",
-    "cucumber:headless": "cross-env HEADLESS=1 cucumber-js --config config/cucumber.js --tags @test",
-    "cucumber:headed": "cross-env HEADLESS=0 cucumber-js --config config/cucumber.js --tags @test"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JoaoAJRomao/SwagLabs_PW_Cucumber.git"
@@ -15,21 +11,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/JoaoAJRomao/SwagLabs_PW_Cucumber/issues"
   },
   "homepage": "https://github.com/JoaoAJRomao/SwagLabs_PW_Cucumber#readme",
   "devDependencies": {
     "@playwright/test": "^1.56.1",
-    "@types/node": "^24.10.1",
-    "@wdio/cucumber-framework": "^9.20.0",
-    "ts-node": "^10.9.2"
+    "@types/node": "^24.10.1"
   },
   "dependencies": {
-    "@cucumber/cucumber": "^12.2.0",
-    "@wdio/globals": "^9.17.0",
-    "cross-env": "^10.1.0",
-    "dotenv": "^17.2.3"
+    "@cucumber/cucumber": "^12.2.0"
   }
 }
